@@ -1,10 +1,12 @@
-# Django-MongoDB application with Docker
+Django-MongoDB application with Docker
+===============
 
 just run this command : 
 docker-compose up --build
 
 Remember to add this in you settings.py file
 
+```json
 DATABASES = {
     "default": {
         'ENGINE': 'djongo',
@@ -18,3 +20,4 @@ DATABASES = {
         },
     }
 }
+```
