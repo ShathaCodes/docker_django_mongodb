@@ -7,7 +7,7 @@ docker-compose up --build
 ```
 
 
-If you want to use it as an API, add this to requirements.txt
+If you want to use it as an API, add this in **requirements.txt**
 ```
 ....
 djangorestframework
